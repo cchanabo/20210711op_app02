@@ -136,3 +136,7 @@ input.onButtonPressed(Button.B, function () {
     music.playTone(233, music.beat(BeatFraction.Half))
     music.playTone(349, music.beat(BeatFraction.Double))
 })
+basic.forever(function () {
+    basic.showString("Hello!")
+    basic.clearScreen()
+})
